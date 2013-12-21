@@ -18,5 +18,3 @@ Epsilon controls the precision at which the solver converges on close enough sol
 See also: [eq2](eq2.html)
 
 [1]: http://en.wikipedia.org/wiki/Cubic_function
-
-
