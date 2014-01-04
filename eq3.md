@@ -1,7 +1,8 @@
 ---
-project: eq
-title:   eq3
-tagline: 3rd degree equation solver
+project:     eq
+title:       eq3
+tagline:     3rd degree equation solver
+category:    Math
 ---
 
 v1.0 | Lua 5.1, Lua 5.2, LuaJIT 2
