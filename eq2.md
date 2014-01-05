@@ -5,8 +5,6 @@ tagline:     2nd degree equation solver
 category:    Math
 ---
 
-v1.0 | Lua 5.1, Lua 5.2, LuaJIT 2
-
 ## `local solve_equation2 = require'eq2'`
 
 ## `solve_equation2(a, b, c[, epsilon]) -> [s1[, s2]]`

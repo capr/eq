@@ -5,8 +5,6 @@ tagline:     3rd degree equation solver
 category:    Math
 ---
 
-v1.0 | Lua 5.1, Lua 5.2, LuaJIT 2
-
 ## `local solve_equation3 = require'eq3'`
 
 ## `solve_equation3(a, b, c, d[, epsilon]) -> [s1[, s2[, s3]]]`
