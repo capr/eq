@@ -2,7 +2,6 @@
 project:     eq
 title:       eq2
 tagline:     2nd degree equation solver
-category:    Math
 ---
 
 ## `local solve_equation2 = require'eq2'`
