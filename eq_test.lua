@@ -1,6 +1,5 @@
 local eq = require'eq'
-
-local pformat = require'pp'.pformat
+local pp = require'pp'
 
 local function assert_approx(a,b)
 	print(string.format("approximation error:\t%g",math.abs(a-b)))
@@ -10,7 +9,7 @@ end
 local function assert_sol(a, b, c, s1, s2)
 	local t = {eq.solve2(a, b, c)}
 	local s = {s1, s2}
-	assert(#t == #s, pformat(t))
+	assert(#t == #s, pp.format(t))
 	table.sort(t)
 	table.sort(s)
 	for i=1,#t do
@@ -27,7 +26,7 @@ assert_sol(2, 2, 0, -1, 0)   --D == 0
 local function assert_sol(a, b, c, d, s1, s2, s3)
 	local t = {eq.solve3(a, b, c, d)}
 	local s = {s1, s2, s3}
-	assert(#t == #s, pformat(t))
+	assert(#t == #s, pp.format(t))
 	table.sort(t)
 	table.sort(s)
 	for i=1,#t do
