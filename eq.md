@@ -1,5 +1,4 @@
 ---
-project: eq
 tagline: 3rd degree equation solver
 ---
 
